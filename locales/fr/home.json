@@ -1,0 +1,78 @@
+{
+  "nav_menu": {
+    "home": "Accueil",
+    "about_us": "À propos",
+    "recruitment": "Recrutement",
+    "training": "Programmes de formation",
+    "news": "Actualités"
+    },
+    "hero_section": {
+      "sub_title": "Pour protéger les vies de demain",
+      "title": "L'excellence en formation à l'incendie, au sauvetage et aux premiers secours",
+      "description": "Offrir des programmes de formation d'élite pour les recrues, les professionnels et les partenaires internationaux afin de protéger les vies et les communautés.",
+      "button": "Découvrez Nos Programmes de Formation"
+    },
+    "training": {
+    "title": "Renforcer la Sécurité grâce à l'Excellence en Formation et en Leadership",
+    "description": "Dédiée à la protection des vies et des biens, l'École Nationale de Protection Civile se positionne comme une référence en formation avancée et en développement continu en sécurité incendie, opérations de sauvetage, et premiers secours. Notre institution est fondée sur les principes d'expertise, de leadership et de service, garantissant que chaque diplômé soit prêt à faire face aux urgences avec confiance et compétence.",
+    "training_1": {
+      "title": "Développement Professionnel Continu",
+      "description": "Opportunités de formation continue pour les professionnels du domaine, favorisant une culture d'apprentissage continu et d'amélioration des pratiques de sécurité."
+    },
+    "training_2": {
+      "title": "Formation Avancée en Sécurité Incendie",
+      "description": "Programmes complets conçus pour équiper les professionnels des connaissances et des techniques nécessaires pour prévenir et combattre efficacement les incendies, assurant ainsi la sécurité des communautés."
+    },
+    "training_3": {
+      "title": "Expertise en Opérations de Sauvetage",
+      "description": "Formation spécialisée qui permet aux individus d'effectuer des missions de sauvetage critiques, sauvant des vies dans des environnements difficiles et dangereux."
+    },
+    "training_4": {
+      "title": "Premiers Secours et Réponse d'Urgence",
+      "description": "Formation essentielle en premiers secours, garantissant que les stagiaires soient prêts à fournir des soins immédiats et efficaces en cas d'urgence médicale."
+    },
+    "training_5": {
+      "title": "Collaborations Internationales",
+      "description": "Notre école collabore avec des partenaires mondiaux, partageant connaissances et expertise pour améliorer les normes de sécurité et les capacités de réponse aux urgences dans le monde entier."
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées (FAQ)",
+    "description": "Trouvez des réponses aux questions les plus fréquemment posées sur nos programmes de formation, les admissions, les certifications et le rôle de la Protection Civile Algérienne.",
+    "title_1": "Quels types de programmes de formation sont proposés à l'École Nationale des Pompiers ?",
+    "description_1": "Nous offrons une large gamme de programmes axés sur la sécurité incendie, les opérations de sauvetage, les premiers secours et la gestion des urgences, conçus pour les nouvelles recrues et les professionnels expérimentés.",
+    "title_2": "Qui peut postuler aux programmes de formation ?",
+    "description_2": "Nos programmes sont ouverts à des personnes de tous secteurs intéressées à perfectionner leurs compétences en sécurité incendie et gestion des urgences, y compris les candidats nationaux et internationaux.",
+    "title_3": "Quel est le rôle de la Protection Civile Algérienne ?",
+    "description_3": "La Protection Civile Algérienne est chargée de la sauvegarde des vies et des biens à travers la prévention des incendies, les opérations de sauvetage et la réponse d'urgence à travers le pays.",
+    "title_4": "Comment fonctionne le processus de certification ?",
+    "description_4": "À l'issue de nos programmes de formation, les participants subissent des évaluations pour s'assurer qu'ils répondent aux normes requises et reçoivent des certifications reconnues par la Protection Civile Algérienne.",
+    "title_5": "Les participants internationaux sont-ils autorisés à rejoindre les programmes de formation ?",
+    "description_5": "Les participants internationaux peuvent rejoindre les programmes de formation uniquement si leur pays a un contrat ou un accord avec la Protection Civile Algérienne ou le gouvernement algérien."
+  },
+  "partners": {
+    "sonatrach": {
+      "title": "SONATRACH",
+      "description": "Sonatrach est la principale entreprise pétrolière et gazière d'Algérie, fondée en 1963. Elle gère toutes les activités liées aux hydrocarbures, de l'exploration à la commercialisation. Sonatrach est essentielle à l'économie algérienne, générant d'importants revenus d'exportation."
+    },
+    "air_algerie": {
+      "title": "Air Algérie",
+      "description": "Air Algérie, fondée en 1947, est la compagnie aérienne nationale d'Algérie, reliant le pays aux grandes destinations internationales. Avec une flotte moderne, elle met l'accent sur la sécurité, la qualité du service, et la promotion de l'hospitalité algérienne à l'échelle mondiale."
+    }
+  },
+  "news": {
+    "title": "Dernières Nouvelles",
+    "description": "Restez informé des dernières nouvelles et mises à jour de l'École Nationale des Sapeurs-Pompiers. Explorez nos activités récentes, événements à venir, et annonces importantes.",
+    "show_more": "Voir Plus"
+  },
+  "footer": {
+    "description": "L'École Nationale Algérienne des Pompiers est une institution de premier plan dédiée à la formation d'élite des pompiers et des professionnels de la sécurité. Fondée pour renforcer la sécurité publique, elle propose des programmes rigoureux alliant compétences pratiques et connaissances avancées.",
+    "contact_us": "contactez-nous",
+    "copyright": " École nationale des pompiers - Tous droits réservés.",
+    "phone": " +213 659 97 54 88",
+    "fax": " 023 94 68 38",
+    "address": " Bordj El Bahri, Algiers 16035, DZ",
+    "email": " lakhdar.chikhi5@gmail.com"
+  }
+}
+  

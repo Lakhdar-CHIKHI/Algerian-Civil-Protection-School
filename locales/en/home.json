@@ -1,0 +1,77 @@
+{
+  "nav_menu": {
+    "home": "Home",
+    "about_us": "About Us",
+    "recruitment": "Recruitment",
+    "training": "Training Programs",
+    "news": "News"
+  },
+  "hero_section": {
+    "sub_title": "Empowering Tomorrow’s Lifesavers",
+    "title": "Excellence in Fire, Rescue and First Aid Training",
+    "description": "Delivering elite training programs for recruits, professionals, and international partners to protect lives and communities.",
+    "button": "Explore Our Training Programs"
+  },
+  "training": {
+    "title": "Empowering Safety through Excellence in Training and Leadership",
+    "description": "Dedicated to Protecting Lives and Property, the National Fire School stands as a beacon of advanced training and continuous development in fire safety, rescue operations, and first aid. Our institution is built on the principles of expertise, leadership, and service, ensuring that every graduate is prepared to face emergencies with confidence and skill.",
+    "training_1": {
+      "title": "Continuous Professional Development",
+      "description": "Ongoing education and training opportunities for professionals in the field, fostering a culture of lifelong learning and improvement in safety practices."
+    },
+    "training_2": {
+      "title": "Advanced Fire Safety Training",
+      "description": "Comprehensive programs designed to equip professionals with the knowledge and techniques necessary to prevent and combat fires effectively, ensuring the safety of communities."
+    },
+    "training_3": {
+      "title": "Rescue Operations Expertise",
+      "description": "Focused training that empowers individuals to perform high-stakes rescue missions, saving lives in challenging and dangerous environments."
+    },
+    "training_4": {
+      "title": "First Aid and Emergency Response",
+      "description": "Critical instruction in first aid, ensuring that trainees are prepared to provide immediate and effective care during medical emergencies."
+    },
+    "training_5": {
+      "title": "International Collaborations",
+      "description": "Our school collaborates with global partners, sharing knowledge and expertise to enhance safety standards and emergency response capabilities worldwide."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "description": "Find answers to the most commonly asked questions about our training programs, admissions, certifications, and the role of the Algerian Civil Protection.",
+    "title_1": "What types of training programs are offered at the National School of firefighter?",
+    "description_1": "We offer a wide range of programs focusing on fire safety, rescue operations, first aid, and emergency management, designed for both new recruits and experienced professionals.",
+    "title_2": "Who can apply to the training programs?",
+    "description_2": "Our programs are open to individuals from all sectors who are interested in advancing their skills in fire safety and emergency management, including national and international candidates.",
+    "title_3": "What is the role of the Algerian Civil Protection?",
+    "description_3": "What is the role of the Algerian Civil Protection?",
+    "title_4": "How does the certification process work?",
+    "description_4": "Upon completion of our training programs, participants undergo evaluations to ensure they meet the required standards and receive certifications recognized by the Algerian Civil Protection",
+    "title_5": "Are international participants allowed to join the training programs?",
+    "description_5": "International participants can join the training programs only if their country has a contract or agreement with the Algerian Civil Protection or the Algerian government."
+  },
+  "partners": {
+    "sonatrach": {
+      "title": "SONATRACH",
+      "description": "Sonatrach is Algeria's leading oil and gas company, established in 1963. It manages the full spectrum of hydrocarbon activities from exploration to marketing. Sonatrach is vital to Algeria’s economy, driving significant export revenues."
+    },
+    "air_algerie": {
+      "title": "Air Algérie",
+      "description": "Air Algérie, founded in 1947, is Algeria’s national airline, connecting the country to major international destinations. With a modern fleet, it emphasizes safety, quality service, and showcases Algerian hospitality worldwide."
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "description": "Stay informed with the latest news and updates from the National School of Firefighters. Explore our recent activities, upcoming events, and important announcements.",
+    "show_more": "Show More"
+  },
+  "footer": {
+    "description": "The Algerian National School of Firefighters is a premier institution dedicated to training elite firefighters and safety professionals. Established to enhance public safety, it offers rigorous programs that combine practical skills with advanced knowledge.",
+    "contact_us": "Contact Us",
+    "copyright": " National School of firefighters - All Rights Reserved.",
+    "phone": " +213 659 97 54 88",
+    "fax": " 023 94 68 38",
+    "address": " Bordj El Bahri, Algiers 16035, DZ",
+    "email": " lakhdar.chikhi5@gmail.com"
+  }
+}
