@@ -13,17 +13,13 @@ import {
     title: string;
     desc: string;
     category: string;
-    price: string;
-    offPrice?: string;
   }
   
   export function NewsCard({
     img,
     category,
     title,
-    desc,
-    price,
-    offPrice,
+    desc
   }: NewsCardProps) {
     return (
       <Card color="transparent" shadow={false}>

@@ -1,0 +1,54 @@
+{
+  "hero_training": {
+    "title": "Empowering Safety through Excellence in Training and Leadership",
+    "subtitle": "Ongoing education and training opportunities for professionals in the field, fostering a culture of lifelong learning and improvement in safety practices."
+    },
+    "training_content": {
+      "content_1": {
+        "title": "Rescue Operations Expertise",
+        "description": "This advanced training is focused on developing expertise in complex rescue operations, including high-risk scenarios such as building collapses, water rescues, and hazardous material incidents. Participants will learn specialized techniques, use of advanced equipment, and strategies for ensuring the safety of both victims and rescuers.",
+        "note": "Downloadable files related to this training are available below.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      },
+      "content_2": {
+        "title": "First Aid and Emergency Response",
+        "description": "This course equips participants with essential skills to respond effectively in emergency situations. From basic first aid procedures to advanced life-saving techniques, the training emphasizes quick decision-making, proper care, and coordination with emergency services. It’s ideal for both beginners and experienced professionals in the emergency response field.",
+        "note": "Please refer to the table below for downloadable files related to this training.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      },
+      "content_3": {
+        "title": "Advanced Fire Safety Training",
+        "description": "This program offers an in-depth understanding of fire prevention, control, and extinguishing techniques. It is designed for professionals looking to enhance their expertise in advanced firefighting strategies, risk assessment, and safety management. The training includes practical simulations and theoretical knowledge tailored to the unique challenges of various environments.",
+        "note": "In the table below, you can find downloadable files related to this training.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      }
+    }
+}
+  

@@ -1,0 +1,21 @@
+{
+  "hero_about": {
+    "title": "Façonner l'avenir de la sécurité incendie et de la réponse aux urgences",
+    "subtitle": "Découvrez notre héritage, nos installations modernes et nos certifications de classe mondiale."
+    },
+    "content": {
+      "content_1": {
+        "title": "Histoire de l'École",
+        "description": "L'École Nationale des Sapeurs-Pompiers a été fondée en [année] avec pour mission de former des professionnels hautement qualifiés et résilients, capables de relever les défis de la sécurité incendie et de la réponse aux urgences. Au fil des ans, l'école est passée d'un centre de formation modeste à une institution de premier plan, reconnue à l'échelle nationale et internationale pour son excellence en matière d'éducation aux techniques de lutte contre les incendies. Grâce à une combinaison de programmes de formation rigoureux, de recherches de pointe et de partenariats stratégiques, nous avons continuellement renforcé nos capacités pour servir l'Algérie et nos partenaires internationaux."
+      },
+      "content_2": {
+        "title": "Installations et Ressources",
+        "description": "L'École Nationale des Sapeurs-Pompiers est équipée d'installations ultramodernes conçues pour simuler des scénarios d'urgence réels. Notre campus comprend des terrains d'entraînement avancés, des salles de classe modernes et des laboratoires spécialisés où les étudiants peuvent perfectionner leurs compétences en extinction d'incendie, en opérations de sauvetage et en gestion des matières dangereuses. De plus, notre bibliothèque et nos ressources numériques offrent un accès aux dernières recherches et aux meilleures pratiques du domaine, garantissant que nos stagiaires sont bien préparés à faire face à toute situation qu'ils pourraient rencontrer dans leur carrière."
+      },
+      "content_3": {
+        "title": "Informations sur les Certifications",
+        "description": "À l'issue de nos programmes de formation, les étudiants reçoivent des certifications reconnues à l'échelle nationale et internationale. Nos certifications sont conçues pour répondre aux normes les plus élevées en matière de sécurité incendie et de réponse aux urgences, garantissant que nos diplômés sont pleinement qualifiés pour servir dans divers rôles au sein du service d'incendie et dans des domaines connexes. De plus, nous offrons des certifications spécialisées pour des cours avancés, permettant aux professionnels d'approfondir leurs compétences et de progresser dans leur carrière en lutte contre les incendies et gestion des urgences."
+      }
+    }
+}
+  

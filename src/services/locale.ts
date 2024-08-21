@@ -19,5 +19,6 @@ export async function getUserLocale() {
 
 
 export async function setUserLocale(language: LanguageProps) {
+  // @ts-ignore
   cookies().set(COOKIE_NAME, JSON.stringify(language));
 }

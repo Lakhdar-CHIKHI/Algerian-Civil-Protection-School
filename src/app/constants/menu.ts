@@ -9,25 +9,27 @@ export const NavMenu = () => {
     {
       name: t('nav_menu.home'),
       icon: RectangleStackIcon,
+      href: "/",
     },
     {
       name: t('nav_menu.about_us'),
       icon: BuildingLibraryIcon,
+      href: "/about",
     },
     {
       name: t('nav_menu.recruitment'),
       icon: UsersIcon,
-      href: "https://www.material-tailwind.com/docs/react/installation",
+      href: "/recruitment",
     },
     {
       name: t('nav_menu.training'),
       icon: AcademicCapIcon,
-      href: "https://www.material-tailwind.com/docs/react/installation",
+      href: "/training",
     },
     {
       name: t('nav_menu.news'),
       icon: NewspaperIcon,
-      href: "https://www.material-tailwind.com/docs/react/installation",
+      href: "/news",
     },
     // {
       //   name: "Contact Us",

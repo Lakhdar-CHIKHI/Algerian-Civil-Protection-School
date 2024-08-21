@@ -1,0 +1,54 @@
+{
+  "hero_training": {
+    "title": "Renforcer la Sécurité grâce à l'Excellence en Formation et en Leadership",
+    "subtitle": "Opportunités de formation continue pour les professionnels du domaine, favorisant une culture d'apprentissage continu et d'amélioration des pratiques de sécurité."
+    },
+    "training_content": {
+      "content_1": {
+        "title": "Expertise en Opérations de Sauvetage",
+        "description": "Cette formation avancée se concentre sur le développement de l'expertise dans les opérations de sauvetage complexes, y compris les scénarios à haut risque tels que les effondrements de bâtiments, les sauvetages en milieu aquatique et les incidents impliquant des matières dangereuses. Les participants apprendront des techniques spécialisées, l'utilisation d'équipements avancés et des stratégies pour assurer la sécurité des victimes et des secouristes. ",
+        "note": "Des fichiers téléchargeables liés à cette formation sont disponibles ci-dessous.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      },
+      "content_2": {
+        "title": "Premiers Secours et Réponse d'Urgence",
+        "description": "Ce cours dote les participants des compétences essentielles pour réagir efficacement en situation d'urgence. Des procédures de premiers secours de base aux techniques de sauvetage avancées, la formation met l'accent sur la prise de décision rapide, les soins appropriés et la coordination avec les services d'urgence. C’est idéal pour les débutants ainsi que pour les professionnels expérimentés dans le domaine de la réponse aux urgences. ",
+        "note": "Veuillez consulter le tableau ci-dessous pour les fichiers téléchargeables liés à cette formation.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      },
+      "content_3": {
+        "title": "Formation Avancée en Sécurité Incendie",
+        "description": "Ce programme offre une compréhension approfondie de la prévention, du contrôle et de l'extinction des incendies. Il est conçu pour les professionnels souhaitant améliorer leur expertise en stratégies de lutte contre les incendies, en évaluation des risques et en gestion de la sécurité. La formation inclut des simulations pratiques et des connaissances théoriques adaptées aux défis uniques de différents environnements.",
+        "note": "Vous trouverez dans le tableau ci-dessous des fichiers téléchargeables liés à cette formation.",
+        "trainings": {
+          "1": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          },
+          "2": {
+            "name": "Formation préventive aux risques routiers (REF CVES)",
+            "link": "/Guide-de-secourisme.pdf"
+          }
+        }
+      }
+    }
+}
+  

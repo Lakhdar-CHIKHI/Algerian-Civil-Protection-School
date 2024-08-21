@@ -35,8 +35,6 @@ const NEWS = [
     category: "Walter Pauk",
     title: "Graduation Ceremony for the 2024 Batch",
     desc: "Celebrate with us as we honor the graduating class of 2024, who have successfully completed their rigorous training at the National School of Firefighters.",
-    price: "$99",
-    offPrice: "$79",
   },
 ];
 

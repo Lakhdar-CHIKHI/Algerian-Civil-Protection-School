@@ -21,7 +21,18 @@ export function CarouselFeatures() {
   ];
   
   return (
-    <div className="px-8 py-32">
+    <div className="px-8 py-20">
+      <div className="container mx-auto flex flex-col items-center">
+        <Typography variant="h1" color="blue-gray" className="mb-2">
+            {t('partners.title')}
+          </Typography>
+          <Typography
+            variant="lead"
+            className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 text-center pb-12"
+          >
+            {t('partners.description')}
+        </Typography>
+      </div>
       <section className="container mx-auto !rounded-lg bg-[url('/image/Background_2.jpg')] bg-center bg-cover ">
       <div className="inset-0 h-full w-full !rounded-lg bg-black/70 py-10 lg:px-16">
         <Carousel

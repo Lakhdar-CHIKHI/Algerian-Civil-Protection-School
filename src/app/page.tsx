@@ -4,10 +4,8 @@ import { Navbar, Footer } from "@/components";
 // sections
 import Hero from "./components/hero";
 import TrainingCategories from "./components/training-categories";
-import BackToSchoolBooks from "./components/news";
-import OtherBookOffers from "./components/other-book-offers";
+import News from "./components/news";
 import CarouselFeatures from "./components/carousel-features";
-import GetYourBookFromUs from "./components/get-your-book-from-us";
 import Faq from "./components/faq";
 
 
@@ -17,10 +15,8 @@ export default function Campaign() {
       <Navbar />
       <Hero />
       <TrainingCategories />
-      <BackToSchoolBooks />
-      {/* <OtherBookOffers /> */}
+      <News />
       <CarouselFeatures />
-      {/* <GetYourBookFromUs /> */}
       <Faq />
       <Footer />
     </>

@@ -1,0 +1,21 @@
+{
+  "hero_about": {
+    "title": "Shaping the Future of Fire Safety and Emergency Response",
+    "subtitle": "Discover our legacy, state-of-the-art facilities, and world-class certifications."
+  },
+  "content": {
+    "content_1": {
+      "title": "History of the School",
+      "description": "The National School of Firefighters was established in [Year], with the mission to develop highly skilled and resilient professionals equipped to handle the challenges of fire safety and emergency response. Over the years, the school has grown from a modest training center to a leading institution, recognized nationally and internationally for its excellence in firefighting education. Through a combination of rigorous training programs, cutting-edge research, and strategic partnerships, we have continually advanced our capabilities to serve both Algeria and our international partners."
+    },
+    "content_2": {
+      "title": "Facilities and Resources",
+      "description": "The National School of Firefighters is equipped with state-of-the-art facilities designed to simulate real-life emergency scenarios. Our campus includes advanced training grounds, modern classrooms, and specialized laboratories where students can hone their skills in fire suppression, rescue operations, and hazardous materials management. Additionally, our library and digital resources provide access to the latest research and best practices in the field, ensuring that our trainees are well-prepared for any situation they may encounter in their careers."
+    },
+    "content_3": {
+      "title": "Certification Information",
+      "description": "Upon successful completion of our training programs, students receive certifications that are recognized both nationally and internationally. Our certifications are designed to meet the highest standards of fire safety and emergency response, ensuring that our graduates are fully qualified to serve in various roles within the fire service and related fields. Additionally, we offer specialized certifications for advanced courses, allowing professionals to further their expertise and advance their careers in firefighting and emergency management."
+    }
+  }
+}
+  
