@@ -1,0 +1,14 @@
+{
+  "hero_news": {
+    "sub_title": "Dernières Nouvelles & Mises à Jour",
+    "title": "Restez Informé de Nos Derniers Développements",
+    "description": "Découvrez les dernières nouvelles, événements, et mises à jour de l'École Nationale des Pompiers. Restez connecté avec nos progrès.",
+    "placeholder":"Rechercher des nouvelles...",
+    "button": "Rechercher"
+  },
+  "pagination": {
+    "page": "page",
+    "of": "de"
+  }
+}
+  

@@ -76,7 +76,7 @@ export function TrainingCategories() {
               {t('training.training_1.description')}
             </Typography>
             <Button size="sm" color="white">
-              Read More
+              {t('news.show_more')}
             </Button>
           </CardBody>
         </Card>

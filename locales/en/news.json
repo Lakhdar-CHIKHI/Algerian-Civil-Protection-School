@@ -1,0 +1,14 @@
+{
+  "hero_news": {
+    "sub_title": "Latest News & Updates",
+    "title": "Stay Informed with Our Latest Developments",
+    "description": "Explore the most recent news, events, and updates from the National School of Firefighters. Stay connected with our progress.",
+    "placeholder":"Search news...",
+    "button": "Search"
+  },
+  "pagination": {
+    "page": "page",
+    "of": "of"
+  }
+}
+  

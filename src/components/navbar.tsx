@@ -21,6 +21,8 @@ import { getUserLocale, setUserLocale } from "@/services/locale";
 import { defaultLocale, LanguageProps, Locale } from "@/config";
 import { useRouter } from 'next/navigation';
 import { NavMenu } from "@/app/constants/menu";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -139,6 +141,7 @@ function NavListMenu() {
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
   const { MENU } = NavMenu();
+  const t = useTranslations();
 
   function handleOpen() {
     setOpen((cur) => !cur);
@@ -154,9 +157,10 @@ export function Navbar() {
   return (
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-2 z-50">
       <div className="container mx-auto flex items-center justify-between">
-        <Typography color="blue-gray" className="text-lg font-bold">
+        {/* <Typography color="blue-gray" className="text-lg font-bold">
           Material Tailwind
-        </Typography>
+        </Typography> */}
+        <Image width={190} height={50} src={t('logo')} alt={""} />
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
