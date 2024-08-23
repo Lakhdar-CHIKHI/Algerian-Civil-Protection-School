@@ -17,6 +17,8 @@ function Hero({title, subtitle, page}: HeroProps) {
     <header className=" flex mt-12 bg-white px-8 place-content-center">
       <figure className="relative h-96 w-9/12">
       <Image
+      width={786}
+      height={786}
         className="h-full w-full rounded-xl object-cover object-center"
         src="/image/hero/7.jpg"
         alt="nature image"

@@ -18,6 +18,8 @@ interface ContentCardProps {
             direction === 'left' ? "" : "flex-row-reverse"
           }`}>
             <Image
+              width={786}
+              height={786}
               className=" w-5/12 rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
               src={img}
               alt="nature image"
