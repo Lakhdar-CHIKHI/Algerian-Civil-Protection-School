@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { getLangDir } from "rtl-detect";
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Layout>
               {children}
+              <Analytics />
           </Layout>
         </NextIntlClientProvider>
       </body>
