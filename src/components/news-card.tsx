@@ -26,7 +26,7 @@ import {
     page = 'home'
   }: NewsCardProps) {
     return (
-      <Card color="transparent" shadow={false}>
+      <Card color="transparent" shadow={false} >
         <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-4">
           <Image
             width={768}
@@ -40,7 +40,7 @@ import {
           <Typography className={`mb-2 text-xs !font-semibold ${page === 'news' ? 'text-gray-600' : 'text-blue-600'}`}>
             {category}
           </Typography>
-          <a href="#">
+          <a href="/news/5">
             <Typography
               variant="h5"
               color="blue-gray"
