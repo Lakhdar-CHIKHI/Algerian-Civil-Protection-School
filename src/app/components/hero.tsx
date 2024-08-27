@@ -8,13 +8,13 @@ import React from "react";
 function Hero() {
   const t = useTranslations();
   return (
-    <header className="mt-12 bg-white px-8">
-      <div className="container mx-auto grid h-full min-h-[65vh] w-full grid-cols-1 place-items-center ">
-        <div className="w-full top-0 !absolute z-1">
+    <header className="mb-12 bg-[url('/image/Background_3.jpg')] bg-center bg-cover ">
+      <div className="grid w-full h-full min-h-[65vh] w-full grid-cols-1 place-items-center bg-black/70 inset-0">
+        {/* <div className="w-full top-0 !absolute z-1">
           <Image width={786} height={786} className="w-full h-[75vh] opacity-30" src={'/image/Background_2.jpg'} alt="" />
-        </div>
-        <div className="grid w-full !relative z-5 gap-y-10 lg:grid-cols-2 grid-cols-1 place-items-center">
-          <div className="row-start-2 lg:row-auto lg:-mt-40">
+        </div> */}
+        <div className="flex flex-row container mx-auto place-items-center">
+          <div className="row-start-2 lg:row-auto w-5/12">
             <Typography
               variant="h1"
               color="red"
@@ -24,23 +24,23 @@ function Hero() {
             </Typography>
             <Typography
               variant="h1"
-              color="blue-gray"
+              color="white"
               className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-3xl"
             >
               {t('hero_section.title')}
             </Typography>
             <Typography
               variant="lead"
-              className="mb-6 font-normal !text-gray-800 md:pr-16 xl:pr-28"
+              className="mb-6 font-normal !text-gray-300 md:pr-16 xl:pr-28"
             >
               {t('hero_section.description')}
             </Typography>
-            <Button size="lg" color="gray">
+            <Button size="lg" variant="filled" color="amber">
             {t('hero_section.button')}
             </Button>
           </div>
-          <div className="mt-40 grid gap-8 lg:mt-0">
-            <div className="grid grid-cols-4 gap-24">
+          <div className="mt-40 grid gap-6 w-7/12">
+            <div className="grid grid-cols-4 gap-28">
               <Image
                 width={1000}
                 height={1000}
@@ -70,7 +70,7 @@ function Hero() {
                 alt="flowers"
               />
             </div>
-            <div className="grid grid-cols-4 gap-24">
+            <div className="grid grid-cols-4 gap-28">
               <div></div>
               <Image
                 width={1000}
