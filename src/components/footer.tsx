@@ -15,15 +15,7 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex  justify-center gap-8 md:justify-between items-start">
           <div className="text-center md:text-left basis-1/2 ">
-            <Typography
-              as="a"
-              href="https://www.material-tailwind.com"
-              target="_blank"
-              variant="h4"
-              className="mb-6"
-            >
-              Material Tailwind
-            </Typography>
+          <Image width={200} height={50} className="mb-6" src={t('logo')} alt={""} />
             <Typography
               target="_blank"
               className="font-medium !text-gray-700 transition-colors hover:!text-gray-900 pb-6"
