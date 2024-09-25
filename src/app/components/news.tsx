@@ -51,21 +51,21 @@ export function News() {
   const [activeTab, setActiveTab] = React.useState("Training Programs");
 
   return (
-    <section className="px-8 pt-20 pb-10">
-      <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h1" color="blue-gray" className="mb-2">
+    <section className="px-8 pt-5 lg:pt-20 pb-10">
+      <div className="container mx-auto mb-10 lg:mb-20 text-center">
+        <Typography color="blue-gray" className="mb-3 text-3xl font-bold lg:text-4xl">
           {t('news.title')}
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
+          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 text-sm lg:text-xl lg:pt-2"
         >
           {t('news.description')}
         </Typography>
-        <div className="mt-12 flex items-center justify-center">
+        <div className="mt-8 lg:mt-16 flex items-center justify-center">
           <Tabs value={activeTab} className="w-full">
             <TabsHeader
-              className="h-12 bg-transparent"
+              className="h-12 bg-transparent contents lg:flex"
               indicatorProps={{
                 className: "!bg-gray-900 rounded-lg",
               }}
@@ -74,7 +74,7 @@ export function News() {
                 <Tab
                   key={name}
                   value={name}
-                  className={`!font-medium capitalize transition-all duration-300
+                  className={`!font-medium text-xs lg:text-lg capitalize transition-all duration-300
                     ${activeTab === name ? "text-white" : "capitalize"}
                   `}
                   onClick={() => setActiveTab(name)}
@@ -92,7 +92,7 @@ export function News() {
         ))}
       </div>
       <div className="grid place-items-center">
-        <Button className="mt-16" variant="outlined">
+        <Button className="lg:mt-16 mt-8" variant="outlined">
           {t('news.show_more')}
         </Button>
       </div>

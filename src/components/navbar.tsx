@@ -100,14 +100,15 @@ function NavListMenu() {
       >
         <MenuHandler>
           <Typography as="div" className="font-medium text-gray-900 gap-2">
+            <hr className="mt-2 lg:mt-0 lg:hidden"/>
             <ListItem
-              className="flex items-center gap-2 font-medium text-gray-900"
+              className="flex items-center gap-2 -ml-2 lg:ml-0 font-medium text-gray-900"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
               <LanguageIcon
                 strokeWidth={2.5}
-                className={'hidden h-4 w-4 transition-transform lg:block'}
+                className={' h-4 w-4 transition-transform lg:block'}
               />
              {language.lang}
               <ChevronDownIcon
@@ -157,9 +158,6 @@ export function Navbar() {
   return (
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-2 z-50">
       <div className="container mx-auto flex items-center justify-between">
-        {/* <Typography color="blue-gray" className="text-lg font-bold">
-          Material Tailwind
-        </Typography> */}
         <Image width={190} height={50} src={t('logo')} alt={""} />
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {MENU.map(({ name, icon: Icon, href }) => (

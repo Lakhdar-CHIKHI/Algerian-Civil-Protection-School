@@ -21,14 +21,14 @@ export function CarouselFeatures() {
   ];
   
   return (
-    <div className="px-8 py-20">
+    <div className="px-8 py-5 lg:py-10">
       <div className="container mx-auto flex flex-col items-center">
-        <Typography variant="h1" color="blue-gray" className="mb-2">
+        <Typography  color="blue-gray" className="mb-3 text-3xl text-center font-bold lg:text-4xl" >
             {t('partners.title')}
           </Typography>
           <Typography
             variant="lead"
-            className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 text-center pb-12"
+            className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 text-center pb-12 text-sm lg:text-xl lg:pt-2"
           >
             {t('partners.description')}
         </Typography>
@@ -60,15 +60,15 @@ export function CarouselFeatures() {
               key={i}
               className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5  md:gap-14 md:py-20"
             >
-              <div className="col-span-3 flex flex-col items-start justify-center">
-                <Typography variant="h3" className="mt-6" color="white">
+              <div className="col-span-3 flex flex-col items-start justify-center items-center lg:items-start">
+                <Typography className="mt-2 lg:mt-6 text-xl lg:text-3xl font-bold" color="white">
                   {partner.title}
                 </Typography>
                 <br />
                 <Typography
                   variant="lead"
                   color="white"
-                  className="mb-5 text-xl font-normal "
+                  className="mb-5 text-sm font-normal lg:text-xl text-center lg:text-left"
                 >
                   {partner.desc}
                 </Typography>
@@ -83,7 +83,7 @@ export function CarouselFeatures() {
                   </Typography>
                 </div> */}
               </div>
-              <div className="col-span-2 flex w-full shrink-0 md:!justify-end">
+              <div className="col-span-2 flex w-full shrink-0 lg:!justify-end justify-center">
                 <Image
                   width={300}
                   height={300}

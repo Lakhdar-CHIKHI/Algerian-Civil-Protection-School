@@ -6,8 +6,6 @@ import CategoryCard from "@/components/category-card";
 import { Card, CardBody, Typography, Button } from "@material-tailwind/react";
 import {
   GlobeEuropeAfricaIcon,
-  MicrophoneIcon,
-  PuzzlePieceIcon,
   HeartIcon,
   FireIcon,
   LifebuoyIcon,
@@ -47,12 +45,12 @@ export function TrainingCategories() {
   ];
 
   return (
-    <section className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
-      <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3">
+    <section className="container mx-auto px-8 pb-5 pt-5">
+      <div className="mb-10 lg:mb-20 grid place-items-center text-center">
+        <Typography color="blue-gray" className="my-3 text-2xl font-bold lg:text-4xl">
           {t("training.title")}
         </Typography>
-        <Typography variant="lead" className="!text-gray-500 lg:w-11/12">
+        <Typography variant="lead" className="!text-gray-500 lg:w-11/12 text-sm lg:text-xl lg:pt-2">
         {t("training.description")}
         </Typography>
       </div>

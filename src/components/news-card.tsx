@@ -42,14 +42,13 @@ import {
           </Typography>
           <a href="/news/5">
             <Typography
-              variant="h5"
               color="blue-gray"
-              className="mb-3 font-bold normal-case xl:w-64"
+              className="mb-3 font-bold text-lg lg:text-xl normal-case xl:w-64"
             >
               {title}
             </Typography>
           </a>
-          <Typography className="mb-2 font-normal !text-gray-500">
+          <Typography className="mb-2 font-normal text-sm lg:text-base !text-gray-500">
             {desc}
           </Typography>
           {

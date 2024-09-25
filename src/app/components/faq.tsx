@@ -53,15 +53,15 @@ export function Faq() {
   ];
 
   return (
-    <section className="px-8 py-12">
+    <section className="px-8 py-6 lg:py-12">
       <div className="container mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
+          <Typography  color="blue-gray" className="mb-4 text-2xl font-bold lg:text-5xl">
             {t('faq.title')}
           </Typography>
           <Typography
             variant="lead"
-            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
+            className="mx-auto mb-10 lg:mb-12 w-full max-w-2xl !text-gray-500 text-sm lg:text-xl lg:pt-2"
           >
             {t('faq.description')}
           </Typography>
@@ -74,13 +74,13 @@ export function Faq() {
               icon={<Icon id={key+1} open={open} />}
               onClick={() => handleOpen(key + 1)}
             >
-              <AccordionHeader className="text-left text-gray-900">
+              <AccordionHeader className="text-left text-sm lg:text-xl text-gray-900">
                 {title}
               </AccordionHeader>
               <AccordionBody >
                 <Typography
                   color="blue-gray"
-                  className="font-normal text-gray-500"
+                  className="font-normal text-sm lg:text-lg text-gray-500"
                 >
                   {desc}
                 </Typography>
