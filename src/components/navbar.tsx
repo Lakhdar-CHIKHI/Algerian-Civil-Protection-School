@@ -174,7 +174,7 @@ export function Navbar() {
           variant="text"
           color="gray"
           onClick={handleOpen}
-          className="ml-auto inline-block lg:hidden"
+          className="inline-block lg:hidden "
         >
           {open ? (
             <XMarkIcon strokeWidth={2} className="h-6 w-6" />

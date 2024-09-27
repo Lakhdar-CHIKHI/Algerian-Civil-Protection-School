@@ -89,7 +89,7 @@ export function Footer() {
                     height={300}
                     src={icon}
                     alt={name}
-                    className="h-full w-2/4 object-contain"
+                    className="h-full w-3/4 lg:w-2/4 object-contain"
                   />
                 </Typography>
               </li>
