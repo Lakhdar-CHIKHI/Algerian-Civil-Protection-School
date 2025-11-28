@@ -28,7 +28,7 @@ function AboutContent() {
         },
       ];
     return (
-        <section className="container mx-auto pb-16 pt-16 ">
+        <section className="container mx-auto pb-16 pt-8 lg:pt-16">
             <Timeline>
                 {CONTENT.map((props, key) => (
                     <ContentCard key={key} {...props} />

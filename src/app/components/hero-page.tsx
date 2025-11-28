@@ -15,7 +15,7 @@ function Hero({title, subtitle, page}: HeroProps) {
   const t = useTranslations();
   return (
     <header className=" flex mt-12 bg-white px-8 place-content-center">
-      <figure className="relative h-96 w-9/12">
+      <figure className="relative h-96 w-full lg:w-9/12">
       <Image
       width={786}
       height={786}
@@ -25,14 +25,18 @@ function Hero({title, subtitle, page}: HeroProps) {
       />
       <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
         <div>
-          <Typography variant="h5" color="blue-gray">
+          <Typography color="blue-gray" className="font-bold text-sm lg:text-xl">
             {title}
           </Typography>
-          <Typography color="gray" className="mt-2 font-normal">
-          {subtitle}
+          <Typography color="gray" className="mt-2 font-normal text-xs lg:text-base">
+            {subtitle}
+          </Typography>
+          <hr className="my-2 lg:hidden"/>
+          <Typography color="blue-gray" className="font-bold text-sm lg:text-xl lg:hidden">
+            {page}
           </Typography>
         </div>
-        <Typography variant="h5" color="blue-gray">
+        <Typography color="blue-gray" className="font-bold text-sm lg:text-xl hidden lg:block">
         {page}
         </Typography>
       </figcaption>

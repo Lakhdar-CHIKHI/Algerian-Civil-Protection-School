@@ -14,8 +14,8 @@ interface ContentCardProps {
     return (
       <TimelineItem>
         <TimelineBody className="px-6 py-14">
-          <div className={`flex flex-cols gap-10 p-6 ${
-            direction === 'left' ? "" : "flex-row-reverse"
+          <div className={`flex flex-col lg:flex-row gap-10 p-6 ${
+            direction === 'left' ? "" : "lg:flex-row-reverse"
           }`}>
             <Image
               width={786}
